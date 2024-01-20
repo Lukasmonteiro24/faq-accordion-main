@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | FAQ accordion</title>
+
+
+</head>
+
+<body>
+
+  <main id="content">
+
+    <section id="container">
+
+      <div class="sections">
+        <div class="title">
+          <i><img src="./assets/images/icon-star.svg" alt="logo" id="logo"></i>
+          <h1>FAQs</h1>
+        </div>
+        <div class="txt-wrapper">
+          <div class="txt" onclick="clickAcordion(0)">
+            <h2>What is Frontend Mentor, and how will it help me?</h2>
+            <img src="./assets/images/icon-plus.svg" alt="Maximizar" class="max">
+            <img src="./assets/images/icon-minus.svg" alt="Minimizar" class="min">
+          </div>
+          <p class="hiden">Frontend Mentor offers realistic coding challengs to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript, it's suitable for all levels and ideal for portfolio building.</p>
+        </div>
+        <div class="txt-wrapper">
+          <div class="txt" onclick="clickAcordion(1)">
+            <h2>Is Frontend Mentor free?</h2>
+            <img src="./assets/images/icon-plus.svg" alt="Maximizar" class="max">
+            <img src="./assets/images/icon-minus.svg" alt="Minimizar" class="min">
+          </div>
+          <p class="hiden">The majority of our challenges are free, yes. We do have some that are premium and require a Pro subscription to access. It will say on each challenge whether they are free or premium, so it's easy to tell the difference.</p>
+        </div>
+        <div class="txt-wrapper">
+          <div class="txt" onclick="clickAcordion(2)">
+            <h2>Can i use Frontend Mentor projects in my portfolio?</h2>
+            <img src="./assets/images/icon-plus.svg" alt="Maximizar" class="max">
+            <img src="./assets/images/icon-minus.svg" alt="Minimizar" class="min">
+          </div>
+          <p class="hiden">Definitely! Please do feel free to use whatever you build in your portfolio. Helping developers add professional-looking projects to their portfolio was one of the reasons we created this platform!</p>
+        </div>
+        <div class="txt-wrapper">
+          <div class="txt" onclick="clickAcordion(3)">
+            <h2>How can i get help if i'm stuck on a challenge?</h2>
+            <img src="./assets/images/icon-plus.svg" alt="Maximizar" class="max">
+            <img src="./assets/images/icon-minus.svg" alt="Minimizar" class="min">
+          </div>
+        <p class="hiden">The best (and quickest) way to get help on a challenge is in our Discord server. There are thousands of other developers in there, so it's a great place to ask questions. We even have a dedicated "help" channel! If you haven't joined yet, you can <a href="https://discord.com/invite/UAfh3qzhYb" target="_blank" rel="noopener noreferrer">get an invite to our Discord server here.</a></p> 
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+  <script src="./rotate-script.js"></script>
+</body>
+
+</html>
